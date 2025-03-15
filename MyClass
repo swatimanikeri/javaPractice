@@ -1,0 +1,28 @@
+class MyClass {
+    // Static variable to keep track of the count of instances
+    static int instanceCount = 0;
+    
+    // Constructor that increments the instanceCount every time an object is created
+    MyClass() {
+        instanceCount++;
+    }
+
+    // Method to display the count of instances
+    void displayCount() {
+        System.out.println("Number of instances created: " + instanceCount);
+    }
+}
+
+public class StaticVariableExample {
+    public static void main(String[] args) {
+        // Creating instances of MyClass
+        MyClass obj1 = new MyClass();
+        obj1.displayCount(); // Output: 1
+        
+        MyClass obj2 = new MyClass();
+        obj2.displayCount(); // Output: 2
+        
+        MyClass obj3 = new MyClass();
+        obj3.displayCount(); // Output: 3
+    }
+}
