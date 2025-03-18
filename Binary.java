@@ -1,5 +1,5 @@
 public class Binary {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         int[] arr={5,6,7,8,3,87};
         int target=7;
         System.out.println(binary(arr,target));

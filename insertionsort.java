@@ -1,5 +1,5 @@
 public class insertionsort {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         int[] arr={5,3,4,1,2};
         insertion(arr);
         printArray(arr);

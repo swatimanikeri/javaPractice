@@ -1,5 +1,5 @@
 public class secondLargest {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         int[] arr = {4, 8, 90, 5, 7, 85};
         System.out.println(findMax(arr));
     }

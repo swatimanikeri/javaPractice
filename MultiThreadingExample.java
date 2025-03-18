@@ -27,7 +27,7 @@ class MyRunnable implements Runnable {
 }
 
 public class MultiThreadingExample {
-    public static void main(String[] args) {
+    public static void main(string[] args) {
         MyThread thread1 = new MyThread();
         thread1.setName("Thread-1");
         thread1.start();

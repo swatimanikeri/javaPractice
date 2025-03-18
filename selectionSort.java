@@ -3,7 +3,7 @@ public class selectionSort {
 
 
 
-public static void main(String[] args){
+public static void main(string[] args){
   int[] arr={4,6,7,8,9};
   bubble(arr);
   System.out.println(Arrays.toString(arr));
