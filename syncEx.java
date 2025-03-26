@@ -39,7 +39,7 @@ class MyThread2 extends Thread {
     }
 }
 
-public class Sync1 {
+public class SyncEx {
     public static void main(String[] args) {
         Display d = new Display();  // Shared object
 
