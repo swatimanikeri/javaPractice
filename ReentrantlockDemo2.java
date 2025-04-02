@@ -5,7 +5,7 @@ class MyThread extends Thread {
     static ReentrantLock l = new ReentrantLock();
 
     MyThread(String name) {
-        super(name);
+        super(name);//for getname
     }
 
     public void run() {
